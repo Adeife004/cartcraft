@@ -1,0 +1,11 @@
+# robots.txt for CartCraft
+User-agent: *
+Allow: /
+Disallow: /checkout
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://cartcraft.vercel.app/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10
